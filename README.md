@@ -21,13 +21,8 @@ Este projeto tem como objetivo **extrair o texto contido em uma imagem** e **sal
 
 ## Como Executar o Projeto
 
-### 1. Instale o Python (versão 3.6 ou superior)
-
-[Download Python](https://www.python.org/downloads/)
-
+---
+  - Ao rodar o projeto ele vai fazer tudo autamaticamente, vai te salvar o projeto em formato txt para visualizar a mensagem
 ---
 
-### 2. Instale as bibliotecas necessárias
 
-```bash
-pip install pillow pytesseract
