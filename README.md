@@ -1,19 +1,33 @@
-Este projeto realiza a extração de texto de uma imagem utilizando OCR (Reconhecimento Óptico de Caracteres) com a biblioteca `pytesseract`, salvando o conteúdo extraído em um arquivo `.txt`.
+# Projeto OCR - Extração de Texto de Imagens
+
+Este projeto tem como objetivo **extrair o texto contido em uma imagem** e **salvá-lo em um arquivo `.txt`**, utilizando a linguagem Python e a biblioteca de OCR `pytesseract`.
 
 ---
 
+## Processo de Desenvolvimento
 
-Ler uma imagem com texto digitado e converter esse conteúdo para um arquivo `.txt`, possibilitando a visualização e reutilização do texto em formato editável.
+1. **Levantamento do problema**: A tarefa consiste em identificar e extrair automaticamente o texto contido em uma imagem (por exemplo, uma frase digitada e salva como imagem).
+
+2. **Etapas do código**:
+   - Abrir a imagem contendo o texto.
+   - Aplicar OCR para extrair o texto da imagem.
+   - Salvar esse texto em um arquivo de texto plano (`.txt`), para posterior leitura ou correção manual.
+
+3. **Testes realizados**:
+   - Foi utilizada uma imagem com uma frase simples digitada para validação do OCR.
+   - O resultado foi analisado e salvo corretamente no arquivo de saída.
 
 ---
 
-- Python 3
-- [Pillow](https://pillow.readthedocs.io/) - para abrir a imagem
-- [pytesseract](https://pypi.org/project/pytesseract/) - interface para o Tesseract OCR
-- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) - motor de reconhecimento de texto
+## Como Executar o Projeto
+
+### 1. Instale o Python (versão 3.6 ou superior)
+
+[Download Python](https://www.python.org/downloads/)
 
 ---
 
+### 2. Instale as bibliotecas necessárias
 
 ```bash
 pip install pillow pytesseract
