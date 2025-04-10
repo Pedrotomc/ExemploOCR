@@ -21,7 +21,6 @@ Este projeto tem como objetivo **extrair o texto contido em uma imagem** e **sal
 
 ## Como Executar o Projeto
 
----
   - Ao rodar o projeto ele vai fazer tudo autamaticamente, vai te salvar o projeto em formato txt para visualizar a mensagem
 ---
 
